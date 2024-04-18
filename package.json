@@ -14,5 +14,9 @@
   "type": "module",
   "workspaces": [
     "src/token4_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/auth-client": "^1.0.1",
+    "@dfinity/identity": "^1.0.1"
+  }
 }
